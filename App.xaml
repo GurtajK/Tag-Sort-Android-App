@@ -1,0 +1,65 @@
+﻿<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:windows="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific;assembly=Microsoft.Maui.Controls"
+             xmlns:local="clr-namespace:TagSort"
+             xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
+             x:Class="TagSort.App"
+             windows:Application.ImageDirectory="Assets">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <Color x:Key="Primary">#f7f7f7</Color>
+            <Color x:Key="Secondary">#262626</Color>
+            <Color x:Key="Accent">#7d7d7d</Color>
+
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource Secondary}" />
+                <Setter Property="FontFamily" Value="RoundArial" />
+            </Style>
+
+            <Style TargetType="Button">
+                <Setter Property="TextColor" Value="{DynamicResource Primary}" />
+                <Setter Property="FontFamily" Value="RoundArial" />
+                <Setter Property="BackgroundColor" Value="{DynamicResource Accent}" />
+                <Setter Property="Padding" Value="5" />
+                <Setter Property="HeightRequest" Value="30" />
+            </Style>
+
+            <Style TargetType="Switch">
+                <Setter Property="ThumbColor" Value="{DynamicResource Secondary}" />
+            </Style>
+
+            <Style TargetType="SearchBar">
+                <Setter Property="CancelButtonColor" Value="{DynamicResource Primary}" />
+                <Setter Property="TextColor" Value="{DynamicResource Primary}" />
+                <Setter Property="BackgroundColor" Value="{DynamicResource Secondary}" />
+            </Style>
+            
+            <Style TargetType="TabbedPage" ApplyToDerivedTypes="True">
+                <Setter Property="BarBackgroundColor" Value="{DynamicResource Primary}" />
+                <Setter Property="BackgroundColor" Value="{DynamicResource Primary}" />
+                <Setter Property="BarTextColor" Value="{DynamicResource Secondary}" />
+            </Style>
+
+            <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
+                <Setter Property="BackgroundColor" Value="{DynamicResource Primary}" />
+            </Style>
+
+            <Style TargetType="Entry" ApplyToDerivedTypes="True">
+                <Setter Property="BackgroundColor" Value="{DynamicResource Accent}" />
+                <Setter Property="TextColor" Value="{DynamicResource Primary}" />
+                <Setter Property="FontFamily" Value="RoundArial" />
+                <Setter Property="MinimumWidthRequest" Value="100" />
+                <Setter Property="ClearButtonVisibility" Value="WhileEditing" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+            </Style>
+
+            <Style TargetType="Grid" ApplyToDerivedTypes="True">
+                <Setter Property="ColumnDefinitions" Value="Auto,Auto,Auto,Auto,Auto" />
+                <Setter Property="ColumnSpacing" Value="5" />
+                <Setter Property="RowSpacing" Value="5" />
+            </Style>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

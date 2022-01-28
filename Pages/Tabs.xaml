@@ -1,0 +1,15 @@
+﻿<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:TagSort.Pages"
+            x:Class="TagSort.Pages.Tabs"
+            Title="Test"
+            BarTextColor="{DynamicResource Secondary}">
+ <!-- for android specific changes add this namespace above: -->
+ <!-- xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls" -->
+    
+    <!--Pages can be added as references or inline-->
+    <local:Recent Title="Recent"/>
+    <local:Search Title="Search"/>
+    <local:Add Title="Add"/>
+    <local:Settings Title="Settings"/>
+</TabbedPage>

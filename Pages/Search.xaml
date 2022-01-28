@@ -1,0 +1,20 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TagSort.Pages.Search">
+    <ScrollView >
+        <Grid x:Name="pageGrid" RowSpacing="5" TranslationY="10" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto"
+              Padding="{OnPlatform iOS='30,60,30,30', Default='20,10,20,10'}" >
+
+            <SearchBar x:Name="MainSearch" Grid.Row="0" Grid.Column="0"
+                       FontFamily="RoundArial" Opacity="0.5" Grid.ColumnSpan="3"
+                       SearchButtonPressed="SearchPressed"/>
+
+            <Grid x:Name="grid1" Grid.Row="1" Grid.Column="0" RowDefinitions="Auto,Auto" >
+
+                <Button Text="+" Clicked="AddTag" GridLayout.Row="0" GridLayout.Column="0" Padding="0" WidthRequest="30"/>
+
+            </Grid>
+
+        </Grid>
+    </ScrollView>
+</ContentPage>

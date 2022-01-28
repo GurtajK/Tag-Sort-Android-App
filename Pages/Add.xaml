@@ -1,0 +1,11 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TagSort.Pages.Add">
+    <ScrollView>
+        <Grid RowSpacing="5" RowDefinitions="Auto, Auto, Auto, Auto" TranslationY="10"
+              Padding="{OnPlatform iOS='30,60,30,30', Default='20,10,20,10'}">
+            <Picker VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </Grid>
+    </ScrollView>
+</ContentPage>

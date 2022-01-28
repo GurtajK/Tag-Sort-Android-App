@@ -1,0 +1,46 @@
+is_global = true
+build_property.TargetFramework = net6.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TagSort
+build_property.ProjectDir = C:\Users\Gurtaj K\Documents\GitHub\side projects\TagSort\
+
+[C:/Users/Gurtaj K/Documents/GitHub/side projects/TagSort/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TagSort.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Gurtaj K/Documents/GitHub/side projects/TagSort/Pages/Add.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TagSort.Pages.Add.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Add.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Add.xaml
+
+[C:/Users/Gurtaj K/Documents/GitHub/side projects/TagSort/Pages/Recent.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TagSort.Pages.Recent.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Recent.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Recent.xaml
+
+[C:/Users/Gurtaj K/Documents/GitHub/side projects/TagSort/Pages/Search.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TagSort.Pages.Search.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Search.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Search.xaml
+
+[C:/Users/Gurtaj K/Documents/GitHub/side projects/TagSort/Pages/Settings.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TagSort.Pages.Settings.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Settings.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Settings.xaml
+
+[C:/Users/Gurtaj K/Documents/GitHub/side projects/TagSort/Pages/Tabs.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = TagSort.Pages.Tabs.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Tabs.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Tabs.xaml
